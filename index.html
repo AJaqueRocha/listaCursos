@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Educação Financeira</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <h1>Cursos de Educação Financeira</h1>
+    </header> 
+
+    <main>
+      <div class="cursos_fin"> 
+        <h2>Cursos</h2>
+      </div>
+
+      <div>
+
+        <div class="lineInput"> 
+          <label>Curso</label>
+          <input type="text" id="curso" placeholder="Nome do curso">
+        </div>
+
+        <div class="lineInput"> 
+          <label>Descrição</label>
+          <input type="text" id="descri">
+        </div>
+
+        <div class="lineInput"> 
+          <label>Professor(a)</label>
+          <input type="text" id="prof">
+        </div>
+
+        <button onclick="curso.salvar()" id="btn1">Salvar</button>
+        
+      </div>  
+
+      </form>
+
+      <div class="content">
+        <table border="1", id="listCursos">
+          <thead class="center">
+            <th>n°</th>
+            <th>Curso</th>
+            <th>Descrição</th>
+            <th>Professor(a)</th>
+             <th>Ações</th>
+          </thead>  
+          <tbody class="center" id="tbody">
+            <tr class="center">
+            </tr>
+          </tbody>  
+        </table>  
+      </div>   
+    </main>   
+    <script src="script.js"></script>
+  </body>
+</html>

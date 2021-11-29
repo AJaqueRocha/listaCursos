@@ -1,0 +1,80 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #f0dede;
+}
+
+header {
+  background-color: #f55742;
+  padding: 10px 50px;
+  color: #fff;
+  text-align: center;
+  border: 3px solid #cc4736;
+  text-shadow: 2px 2px black;
+  border-radius: 5px;
+}
+
+.cursos_fin {
+  font-size: 18px;
+}
+
+main {
+  padding: 30px 50px;
+}
+
+.acoes {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin_top: 15px;
+  border-radius: 5px;
+}
+
+.lineInput {
+  display: grid;
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 10px;
+  border: 1px, solid #ccc;
+  border-radius: 3px;
+  outline: 0;
+  width: 60%;
+}
+
+button {
+  border: 0;
+  padding: 10px;
+  outline: 0;
+  background-color:#f55742;
+  color: #ffff;
+  border-radius: 3px;
+  font-weight: bold;
+  transition: all ease 0.3s;
+}
+
+button:hover {
+  background-color:#cc4736;
+}
+
+.content {
+  margin-top: 15px;
+}
+
+table {
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+table th {
+  background-color: #ccc;
+}
+
+table td img {
+  width: 22px;
+  text-align: left;
+}
+
+.center{
+  text-align: center;
+}
